@@ -5,4 +5,4 @@ on a large, diverse dataset to develop a broad understanding of language. This p
 through fine-tuning, a process where the model is specifically trained on a narrower
 dataset that is more specific to particular tasks or domains. This two-stage training
 approach consisting of pretraining and fine-tuning is depicted
-[Training Process]!(Images/training_llm_stages.md)
+![Training Process](../Images/training_llm_stages.md)
