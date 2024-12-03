@@ -50,4 +50,4 @@ The next-word prediction task is a form of self-supervised learning, which is a 
 self-labeling. This means that we don’t need to collect labels for the training data
 explicitly but can use the structure of the data itself: we can use the next word in a sentence or document as the label that the model is supposed to predict. Since this nextword prediction task allows us to create labels “on the fly,” it is possible to use massive
 unlabeled text datasets to train LLMs.
-* GPT model, are decoder-style models, since they generate text by predicting text one word at a time, hence they are considered a type of ** autoregressive model**
+* GPT model, are decoder-style models, since they generate text by predicting text one word at a time, hence they are considered a type of **autoregressive model**
