@@ -51,3 +51,14 @@ self-labeling. This means that we don’t need to collect labels for the trainin
 explicitly but can use the structure of the data itself: we can use the next word in a sentence or document as the label that the model is supposed to predict. Since this nextword prediction task allows us to create labels “on the fly,” it is possible to use massive
 unlabeled text datasets to train LLMs.
 * GPT model, are decoder-style models, since they generate text by predicting text one word at a time, hence they are considered a type of **autoregressive model**
+
+Autoregressive models incorporate their previous outputs as inputs for future predictions. 
+
+![GPT architecture](../Images/gpt_transfomer.png)
+
+This architecture is bigger than the original transformer model. For instance, the original trans repeated encoder and decoder blocks six times, while GPT-3 has 96 transfomer layers and 175 billion parameters in total.
+The ability to perfom tasks that the model wasn't explicityly trained to perfom is called an *emergent behavior*
+This behaviour is not explicitly taught during training, but emerges as a natural consequence of the model's exposure to vast quantities of multilingual data in diverse contexts.  The fact that GPT models can “learn” the translation patterns between languages and perform translation tasks even though they weren’t specifically trained for it demonstrates the benefits and capabilities of these largescale, generative language models. We can perform diverse tasks without using diverse models for each.
+This is the fundamental idea behind G:
+
+![GPT training process](../Images/gpt_process.png)
